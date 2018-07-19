@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agtools.agtools">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".GlobalResponse.GlobalData"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/launchericon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SigninActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".SignUpActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".DashboardActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".ProfileActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".MainPackagesActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".PresentActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".FullActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".UserTypeActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".DetailActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".UserTypeTwoActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".UserTypeThreeActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".UserTypeFourActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".UserTypeFiveActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyByHtbUDntLHHo9P6oe2OAODhWdZbwt3qE" />
+
+        <activity
+            android:name=".ExchangeHistoricActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WeatherHistoricActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".CitiesHistoricActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".FreshFruitsHistoricActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".HistoricIndexActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".FreezeHistoricActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".JuiceHistoricActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".FuelGraphActivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".GasGraphAcitivity"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:name=".VolumeWebActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ShippingWebActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TerminalWebActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VolumeWebMonthActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VolumeWebYearActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".AllSubcriptionsActivity" />
+        <activity android:name=".DetailActivityTwo" />
+        <activity android:name=".DetailActivityThree" />
+        <activity android:name=".DetailActivityFour" />
+        <activity android:name=".DetailActivityFive" />
+        <activity android:name=".TrailPackageActivity" />
+        <activity android:name=".Main2PackagesActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/Historic"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/s"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/hi"/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontaljuice"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/hi"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeJuiceMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeJuiceHeaders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/weekEnding"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/weather_textview_top_background"
+                    android:gravity="center"
+                    android:text="@string/WeekEnding"
+                    android:textColor="#123"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/week"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/weekEnding"
+                    android:background="@drawable/weather_textview_top_background"
+                    android:gravity="center"
+                    android:text="@string/Week"
+                    android:textColor="#123"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accum"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/week"
+                    android:background="@drawable/weather_textview_top_background"
+                    android:gravity="center"
+                    android:text="@string/Accum"
+                    android:textColor="#123"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listjuices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeJuiceHeaders"/>
+
+            <TextView
+                android:id="@+id/textnoJuice"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeJuiceHeaders"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="No Juice Volumes for present date"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+</RelativeLayout>

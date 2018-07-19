@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeshipAdapter">
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:background="@drawable/weather_textview_top_background"
+        android:id="@+id/textlastupda"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:background="@drawable/weather_textview_top_background"
+        android:id="@+id/textpackage"
+        android:layout_toRightOf="@+id/textlastupda"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:background="@drawable/weather_textview_top_background"
+        android:id="@+id/texttype"
+        android:layout_toRightOf="@+id/textpackage"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:background="@drawable/weather_textview_top_background"
+        android:id="@+id/textlowhigh"
+        android:layout_toRightOf="@+id/texttype"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:background="@drawable/weather_textview_top_background"
+        android:id="@+id/textsize"
+        android:layout_toRightOf="@+id/textlowhigh"
+        android:textSize="30sp"
+        android:gravity="center"/>
+</RelativeLayout>
+</RelativeLayout>

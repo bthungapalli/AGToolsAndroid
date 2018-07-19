@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/relativeAdapter">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/textfreezeweekend"
+            android:background="@drawable/weather_textview_top_background"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#123"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/textfreezeweek"
+            android:background="@drawable/weather_textview_top_background"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/textfreezeweekend"
+            android:textColor="#123"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/textfreezeaccum"
+            android:background="@drawable/weather_textview_top_background"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/textfreezeweek"
+            android:textColor="#123"/>
+    </RelativeLayout>
+
+</RelativeLayout>

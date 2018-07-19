@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">agtools</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="splash_text">AGTools</string>
+    <string name="login_username">Nombre de usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Registrarse</string>
+    <string name="signup_button">Regístrate</string>
+    <string name="login_invalid">El nombre de usuario o la contraseña deben estar vacíos</string>
+    <string name="view_icons">Seleccione un artículo</string>
+    <string name="from_date">Partir de la fecha</string>
+    <string name="to_date">Hasta la fecha</string>
+    <string name="Donthaveanaccount">No tienes una cuenta,</string>
+    <string name="Rememberme">Recuérdame</string>
+    <string name="Forgotpassword">Se te olvidó tu contraseña</string>
+    <string name="userhint">Ingrese su nombre de usuario</string>
+    <string name="passhint">Ingresa tu contraseña</string>
+    <string name="entermail">Ingrese su correo</string>
+    <string name="entername">Introduzca su nombre</string>
+    <string name="enterpassword">Ingresa tu contraseña</string>
+    <string name="reenterpassword">Reingresa tu contraseña</string>
+    <string name="usertype">Tipo de usuario</string>
+    <string name="already">¿Ya tienes una cuenta?</string>
+    <string name="email">E-Mail</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registro</string>
+    <string name="search">Commidity de búsqueda</string>
+    <string name="commodityname">Nombre del producto</string>
+    <string name="nw">Clima nacional</string>
+    <string name="my">mis Suscripciónes</string>
+    <string name="Commodity">Mercancía</string>
+    <string name="Planning">Planificación</string>
+    <string name="Package">Paquete</string>
+    <string name="review">revisión</string>
+    <string name="price">Precio</string>
+    <string name="FinalPrice">
+Precio final</string>
+    <string name="Commodities">Productos básicos</string>
+    <string name="Subscribe">Suscribir</string>
+    <string name="ex">
+Tipo de cambio (1 dólar estadounidense) </string>
+    <string name="weblink">enlace web</string>
+    <string name="Date">Fecha</string>
+    <string name="CAD">CAD($)</string>
+    <string name="peso">PESO($)</string>
+    <string name="Juice">Jugo</string>
+    <string name="Years">Años:</string>
+    <string name="Year">Año</string>
+    <string name="WeekEnding">Fin de semana</string>
+    <string name="Accum">Acumular</string>
+    <string name="Week">Semana</string>
+    <string name="Historic">Histórico</string>
+    <string name="diesel">Precios del combustible diesel (dólares por galón)</string>
+    <string name="full">Paquetes completos</string>
+    <string name="gas">Precios de gasolina (dólares por galón)</string>
+    <string name="consumer">Índice de precios al consumidor (todos los artículos)</string>
+    <string name="to">
+Para ver en formato de tabla, haga clic en: </string>
+    <string name="curent">
+Enlace del año actual</string>
+    <string name="yearlink"> Enlace del año</string>
+    <string name="historicallink">
+Enlace histórico</string>
+    <string name="present">Present Packages</string>
+    <string name="selecttype">Seleccione tipo:</string>
+    <string name="next">Siguiente</string>
+    <string name="SelectCommodity">Seleccionar productos básicos:</string>
+    <string name="enterpass">Ingresa tu contraseña</string>
+    <string name="cnfmpass">ReIngresa tu contraseña</string>
+    <string name="ChangePassword">
+Cambia la contraseña</string>
+
+    <string name="index">Índice:</string>
+    <string name="AllFruits">Todas las frutas:</string>
+    <string name="AllCities">Todas las ciudades:</string>
+    <string name="Month">Mes:</string>
+    <string name="HistoricIndex">HistoricIndex:</string>
+    <string name="HistoricAllFruits">
+Histórico todas las frutas:</string>
+    <string name="HistoricCities">Ciudades históricas:</string>
+    <string name="Weather">Clima</string>
+    <string name="National">Nacional</string>
+    <string name="Live">Vivir</string>
+    <string name="Volume">Volumen</string>
+    <string name="Terminal">Terminal</string>
+    <string name="Shipping">Envío</string>
+    <string name="Exchange">Intercambiar</string>
+    <string name="Holiday">Fiesta</string>
+    <string name="Freeze">Congelar</string>
+    <string name="Gasoline">Gasolina</string>
+    <string name="Consumer">Consumidor</string>
+    <string name="Fuel">Combustible</string>
+    <string name="dolars">Dólares por galón</string>
+    <string name="week12">semana12</string>
+    <string name="week11">semana11</string>
+    <string-array name="mobile_manufacturers">
+        <item>Select Commudity</item>
+        <item>Samsung</item>
+        <item>Foxconn</item>
+        <item>Apple</item>
+        <item>Oppo</item>
+        <item>Nokia</item>
+        <item>LYF</item>
+        <item>Xiaomi</item>
+        <item>Huawei</item>
+        <item>Asus</item>
+        <item>Lenovo</item>
+    </string-array>
+    <string name="searchcity">
+ciudad de búsqueda</string>
+    <string name="liveweather">Tiempo en vivo</string>
+    <string name="EditProfile">Editar perfil</string>
+    <string name="Logout">
+Cerrar sesión</string>
+    <string name="Type">Tipo</string>
+    <string name="LowHigh">
+Bajo-Alto</string>
+    <string name="Size">
+tamaño</string>
+    <string name="Origin">Origen</string>
+    <string name="Weekly">Semanal</string>
+    <string name="Monthly">Mensual</string>
+    <string name="Yearly">Anual</string>
+    <string name="Location">Ubicación</string>
+    <string name="Count">Contar
+</string>
+    <string name="WeatherStation">
+Estación meteorológica</string>
+</resources>

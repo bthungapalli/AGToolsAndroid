@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeVoliumeMain"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/back"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            />
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            android:layout_gravity="center"
+            android:text="@string/my" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/back"
+        android:id="@+id/relative_resp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView_sno"
+            android:layout_weight="1"
+            android:text="@string/Commodity"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:background="@drawable/weather_textview_top_background"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView_location"
+            android:text="@string/Planning"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/textView_sno"
+            android:background="@drawable/weather_textview_top_background"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView_count"
+            android:text="@string/Package"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/textView_location"
+            android:background="@drawable/weather_textview_top_background"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/relative_resp"
+        android:id="@+id/listViewVolume"
+        />
+    <!--
+           </RelativeLayout>
+        </ScrollView>-->
+</RelativeLayout>

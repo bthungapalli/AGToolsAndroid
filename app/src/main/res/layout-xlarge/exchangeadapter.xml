@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/relativeTop">
+        <TextView
+            android:layout_width="260dp"
+
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@drawable/weather_textview_top_background"
+            android:id="@+id/txtlastUpdatedate"/>
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@drawable/weather_textview_top_background"
+            android:layout_toRightOf="@+id/txtlastUpdatedate"
+            android:id="@+id/txtcanada"/>
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@drawable/weather_textview_top_background"
+            android:layout_toRightOf="@+id/txtcanada"
+            android:id="@+id/txtmexico"/>
+    </RelativeLayout>
+
+</RelativeLayout>

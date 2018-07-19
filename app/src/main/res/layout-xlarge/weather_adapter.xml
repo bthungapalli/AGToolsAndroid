@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeshipAdapter">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/weather_textview_top_background"
+            android:id="@+id/day"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/weather_textview_top_background"
+            android:id="@+id/temparature"
+            android:layout_toRightOf="@+id/day"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/temparature"
+            android:id="@+id/relativehighlow"
+            android:background="@drawable/weather_textview_top_background">
+
+            <TextView
+                android:id="@+id/high"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="30sp"
+                android:text="10"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dash"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/high"
+                android:paddingLeft="10dp"
+                android:paddingTop="30sp"
+                android:text="/"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/low"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/dash"
+                android:paddingLeft="10dp"
+                android:paddingTop="30sp"
+                android:text="10"
+                android:textSize="30sp" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/weather_textview_top_background"
+            android:id="@+id/precipitation"
+            android:layout_toRightOf="@+id/relativehighlow"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/weather_textview_top_background"
+            android:id="@+id/windspeed"
+            android:layout_toRightOf="@+id/precipitation"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/weather_textview_top_background"
+            android:id="@+id/humidity"
+            android:layout_toRightOf="@+id/windspeed"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/uvindex"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/weather_textview_top_background"
+            android:paddingLeft="10dp"
+            android:paddingTop="30sp"
+            android:gravity="center"
+            android:text="Humidity"
+            android:layout_toRightOf="@+id/humidity"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/s"
+            android:layout_gravity="center"
+            android:id="@+id/fuellhistoric"
+            android:text="@string/Historic"
+            android:textAllCaps="false"
+            android:layout_marginLeft="230dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeGasoline"
+        android:layout_marginLeft="10dp"
+        android:background="#1B2631"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/textViewfuelonline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:layout_marginLeft="5dp"
+            android:text="@string/diesel"
+            android:textSize="17dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/linechartfuel"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/textViewfuelonline"/>
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listdiesel"
+        android:layout_below="@+id/relativeGasoline"/>
+</RelativeLayout>

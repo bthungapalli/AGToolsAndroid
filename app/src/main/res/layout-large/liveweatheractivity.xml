@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeEditWeather"
+                >
+                <Button
+                    android:id="@+id/favlive"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/fav"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="20dp"
+                    android:text="      Fav"
+                    android:textSize="25dp"/>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="12dp"
+                    android:id="@+id/relativelive1"
+                    android:layout_below="@+id/favlive"
+                    android:background="@drawable/rectangularedittext"
+                    android:layout_marginLeft="12dp">
+                    <EditText
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:hint="@string/searchcity"
+                        android:textSize="30sp"
+                        android:backgroundTint="#FFF"
+                        android:paddingLeft="10dp"
+                        android:id="@+id/editLivWeather1"
+                        />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/imgPlace1Clear"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/editLivWeather1"
+                        android:src="@drawable/ic_clear_black_24dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/relativelive1"
+                    android:layout_marginRight="12dp"
+                    android:id="@+id/relativelive2"
+                    android:background="@drawable/rectangularedittext"
+                    android:layout_marginLeft="12dp">
+                    <EditText
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:hint="@string/searchcity"
+                        android:textSize="30sp"
+                        android:backgroundTint="#FFF"
+                        android:paddingLeft="10dp"
+                        android:id="@+id/editLivWeather2"
+                        />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/imgPlace2Clear"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/editLivWeather2"
+                        android:src="@drawable/ic_clear_black_24dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/relativelive2"
+                    android:layout_marginRight="12dp"
+                    android:id="@+id/relativelive3"
+                    android:background="@drawable/rectangularedittext"
+                    android:layout_marginLeft="12dp">
+                    <EditText
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:hint="@string/searchcity"
+                        android:backgroundTint="#FFF"
+                        android:paddingLeft="10dp"
+                        android:textSize="30sp"
+                        android:id="@+id/editLivWeather3"
+                        />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/imgPlace3Clear"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/editLivWeather3"
+                        android:src="@drawable/ic_clear_black_24dp"/>
+                </RelativeLayout>
+
+
+                <!--
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/editLivWeather1"/>
+                -->
+                <!--
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/editLivWeather2"
+                            android:layout_below="@+id/editLivWeather1"/>
+                -->
+                <!--  <EditText
+                      android:layout_width="match_parent"
+                      android:layout_height="40dp"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:id="@+id/editLivWeather3"
+                      android:layout_below="@+id/editLivWeather2"/>-->
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/buttonbackground"
+                    android:layout_below="@+id/relativelive3"
+                    android:id="@+id/buttonliveweather"
+                    android:text="@string/liveweather"
+                    android:textSize="30sp"
+                    android:textAllCaps="false"/>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/buttonliveweather"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/listPlacesLive">
+
+                </ListView>
+            </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scroll"
+                android:layout_below="@+id/relativeEditWeather"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relativeWeatherLive"
+                    android:layout_below="@+id/scroll"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontalliveweather"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:id="@+id/relativeliveWeathermain"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <RelativeLayout
+                                android:id="@+id/relativeliveweather"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/textcityName"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="City Name"
+                                    android:textSize="30sp" />
+
+                                <TextView
+                                    android:id="@+id/textTemp"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textcityName"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="Temperature"
+                                    android:textSize="30sp" />
+
+                                <TextView
+                                    android:id="@+id/textpreci"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textTemp"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="Precipitation"
+                                    android:textSize="30sp" />
+
+                                <TextView
+                                    android:id="@+id/textlivewindspeed"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textpreci"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="Wind Speed(dir/mph)"
+                                    android:textSize="30sp" />
+
+                                <TextView
+                                    android:id="@+id/textlivehumidity"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivewindspeed"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="Humidity(%)"
+                                    android:textSize="30sp" />
+
+                                <TextView
+                                    android:id="@+id/textlivedewpoint"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivehumidity"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="Dew Point"
+                                    android:textSize="30sp" />
+
+                                <TextView
+                                    android:id="@+id/textliveuvIndex"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivedewpoint"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="UvIndex"
+                                    android:textSize="30sp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/relativeCity1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/relativeliveweather">
+
+                                <TextView
+                                    android:id="@+id/textcity1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="city1"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/texttemp1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textcity1"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="20F"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textpreci1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/texttemp1"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textwindspeed1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textpreci1"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="NNE3"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textlivehumidity1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textwindspeed1"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="100"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textlivedewpoint1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivehumidity1"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="60"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textliveuvIndex1"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivedewpoint1"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="2"
+                                    android:textSize="20dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/relativeLiveCity2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/relativeCity1">
+
+                                <TextView
+                                    android:id="@+id/textcity2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="city2"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/texttemp2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textcity2"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="46F"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textpreci2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/texttemp2"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="1"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textwindspeed2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textpreci2"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="NE14"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textlivehumidity2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textwindspeed2"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="65"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textlivedewpoint2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivehumidity2"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="35"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textliveuvIndex2"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivedewpoint2"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="1"
+                                    android:textSize="20dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/relativeLiveCity3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/relativeLiveCity2">
+
+                                <TextView
+                                    android:id="@+id/textcity3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="city 3"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/texttemp3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textcity3"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="30 F"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textpreci3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/texttemp3"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="3"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textwindspeed3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textpreci3"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:textColor="#000"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textlivehumidity3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textwindspeed3"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="66"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textlivedewpoint3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivehumidity3"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="33"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textliveuvIndex3"
+                                    android:layout_width="210dp"
+                                    android:layout_height="80dp"
+                                    android:layout_below="@+id/textlivedewpoint3"
+                                    android:background="@drawable/weather_textview_top_background"
+                                    android:gravity="center"
+                                    android:text="1"
+                                    android:textSize="20dp" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </HorizontalScrollView>
+                </RelativeLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

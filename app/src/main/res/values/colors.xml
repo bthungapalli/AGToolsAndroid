@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d4b012</color>
+    <color name="colorPrimaryDark">#4f2608</color>
+    <color name="colorAccent">#4f2608</color>
+    <color name="weather_stroke">#b7b7b7</color>
+    <color name="graphcolorcode">#85929E</color>
+    <color name="black">#000000</color>
+    <color name="bl">#C0A7A2</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/weather_textview_top_background">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="USA"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:id="@+id/holidaydate"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="MEXICO"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:id="@+id/holidaydesc"
+            android:layout_below="@+id/holidaydate"
+            android:textColor="#000"
+            />
+
+
+</LinearLayout>

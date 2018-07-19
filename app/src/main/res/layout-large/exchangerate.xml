@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/exchangehistoric"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/s"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:text="@string/Historic" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/exchangehistoric"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/relative_exchange"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/lastUpdateDate"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:background="@drawable/weather_textview_top_background"
+                    android:text="@string/Date"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/canada"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/lastUpdateDate"
+                    android:gravity="center"
+                    android:text="CAD($)"
+                    android:background="@drawable/weather_textview_top_background"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/mexico"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:background="@drawable/weather_textview_top_background"
+                    android:layout_toRightOf="@+id/canada"
+                    android:gravity="center"
+                    android:text="PESO($)"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listViewExchange"
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/relative_exchange"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

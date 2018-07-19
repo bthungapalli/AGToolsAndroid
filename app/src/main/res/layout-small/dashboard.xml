@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dashboard_margin"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/weather_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_color"
+                android:drawableTop="@drawable/weather"
+                android:paddingTop="10dp"
+                android:text="@string/Weather"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff"
+                />
+
+
+            <Button
+                android:id="@+id/nationalweather_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_green"
+                android:drawableTop="@drawable/weather"
+                android:paddingTop="10dp"
+                android:text="@string/National"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/liveweather_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_grey"
+                android:drawableTop="@drawable/weather"
+                android:paddingTop="10dp"
+                android:text="@string/Live"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/viewreports_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_green"
+                android:drawableTop="@drawable/volume"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Volume"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff"
+                />
+
+            <Button
+                android:id="@+id/terminal_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_blue"
+                android:drawableTop="@drawable/terminal"
+                android:paddingTop="10dp"
+                android:text="@string/Terminal"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/shipping_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_pink"
+                android:drawableTop="@drawable/shipping"
+                android:paddingTop="10dp"
+                android:text="@string/Shipping"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/exchangerate_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_purple"
+                android:drawableTop="@drawable/currencyexchange"
+                android:paddingTop="10dp"
+                android:text="@string/Exchange"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff"
+                />
+
+            <Button
+                android:id="@+id/holiday_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_red"
+                android:drawableTop="@drawable/holiday"
+                android:paddingTop="10dp"
+                android:text="@string/Holiday"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+            <Button
+                android:id="@+id/freezevolume_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_color"
+                android:drawableTop="@drawable/freeze"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Freeze"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/juicevolume_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_skyblue"
+                android:drawableTop="@drawable/juice"
+                android:paddingTop="10dp"
+                android:text="@string/Juice"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/customerprice_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_gay"
+                android:drawableTop="@drawable/consumer"
+                android:paddingTop="10dp"
+                android:text="@string/Consumer"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/gasonline_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_gay"
+                android:drawableTop="@drawable/gasoline"
+                android:paddingTop="10dp"
+                android:text="@string/Gasoline"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fuelonline_imageButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_gay"
+                android:drawableTop="@drawable/fuel"
+                android:paddingTop="10dp"
+                android:text="@string/Fuel"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

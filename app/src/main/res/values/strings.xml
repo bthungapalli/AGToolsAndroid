@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">agtools</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_text">AGTools</string>
+    <string name="login_username">User name</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Sign in</string>
+    <string name="signup_button">Sign up</string>
+    <string name="Donthaveanaccount">Don\'t have an account</string>
+    <string name="login_invalid">User name or password should empty</string>
+    <string name="view_icons">Select Item</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="Rememberme">Remember me</string>
+    <string name="Forgotpassword">Forgot password</string>
+    <string name="userhint">Enter Your Username</string>
+    <string name="passhint">Enter Your Password</string>
+    <string name="entermail">Enter Your Mail</string>
+    <string name="entername">Enter Your Name</string>
+    <string name="enterpassword">Enter your Password</string>
+    <string name="reenterpassword">ReEnter your Password</string>
+    <string name="usertype">UserType</string>
+    <string name="already">Already have account ?</string>
+    <string name="email">E-Mail</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="search">Search Commodity</string>
+    <string name="commodityname">ComodityName</string>
+    <string name="nw">National Weather</string>
+    <string name="Commodity">Commodity</string>
+    <string name="Planning">Planning</string>
+    <string name="Package">Package</string>
+    <string name="my">My Subcriptions</string>
+    <string name="review">Review</string>
+    <string name="price">Price</string>
+    <string name="FinalPrice">FinalPrice</string>
+    <string name="Commodities">Commodities</string>
+    <string name="Subscribe">Subscribe</string>
+    <string name="ex">Exchange Rate (1 US Dollar) </string>
+    <string name="weblink">weblink</string>
+    <string name="Date">Date</string>
+    <string name="CAD">CAD($)</string>
+    <string name="peso">PESO($)</string>
+    <string name="Juice">Juice</string>
+    <string name="Years">Years:</string>
+    <string name="Year">Year</string>
+    <string name="WeekEnding">Week Ending</string>
+    <string name="Accum">Accum</string>
+    <string name="Week">Week</string>
+    <string name="Historic">Historic</string>
+    <string name="Historicfruit">Historic Fruits</string>
+    <string name="Historiccities">Historic Cities</string>
+    <string name="diesel">Diesel Fuel Prices (Dollars Per Gallon)</string>
+    <string name="full">Full Packages</string>
+    <string name="gas">Gasoline Prices (Dollars Per Gallon)</string>
+    <string name="consumer">Consumer Price Index (All Items)</string>
+    <string name="to">To view in chart format click : </string>
+    <string name="curent">Current Year Link</string>
+    <string name="yearlink"> Year\'s Link</string>
+    <string name="historicallink">Historical Link</string>
+    <string name="present">Present Packages</string>
+    <string name="selecttype">Select Type:</string>
+    <string name="next">Next</string>
+    <string name="SelectCommodity">Select Commodity:</string>
+    <string name="enterpass">Enter Your Password</string>
+    <string name="cnfmpass">ReEnter Your Password</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="index">Index:</string>
+    <string name="AllFruits">All Fruits:</string>
+    <string name="AllCities">All Cities:</string>
+    <string name="Month">Month:</string>
+    <string name="HistoricIndex">HistoricIndex:</string>
+    <string name="HistoricAllFruits">Historic All Fruits:</string>
+    <string name="HistoricCities">Historic Cities:</string>
+    <string name="Weather">Weather</string>
+    <string name="National">National</string>
+    <string name="Live">Live</string>
+    <string name="Volume">Volume</string>
+    <string name="Terminal">Terminal</string>
+    <string name="Shipping">Shipping</string>
+    <string name="Exchange">Exchange</string>
+    <string name="Holiday">Holiday</string>
+    <string name="Freeze">Freeze</string>
+    <string name="Gasoline">Gasoline</string>
+    <string name="Consumer">Consumer</string>
+    <string name="Fuel">Fuel</string>
+    <string name="dolars">Dollars per Gallon</string>
+    <string name="week12">week12</string>
+    <string name="week11">week11</string>
+    <string name="searchcity">Search City</string>
+    <string name="liveweather">Live Weather</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="Logout">Logout</string>
+    <string name="Type">Type</string>
+    <string name="LowHigh">Low-High</string>
+    <string name="Size">Size</string>
+    <string name="Origin">Origin</string>
+    <string name="Weekly">Weekly</string>
+    <string name="Monthly">Monthly</string>
+    <string name="Yearly">Yearly</string>
+    <string name="Location">Location</string>
+    <string name="Count">Count</string>
+
+    <string-array name="mobile_manufacturers">
+        <item>Select Commudity</item>
+        <item>Samsung</item>
+        <item>Foxconn</item>
+        <item>Apple</item>
+        <item>Oppo</item>
+        <item>Nokia</item>
+        <item>LYF</item>
+        <item>Xiaomi</item>
+        <item>Huawei</item>
+        <item>Asus</item>
+        <item>Lenovo</item>
+    </string-array>
+    <string name="WeatherStation">Weather Station</string>
+    <string name="trail">Trail Package</string>
+</resources>
